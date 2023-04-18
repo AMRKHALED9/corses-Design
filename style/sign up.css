@@ -1,0 +1,117 @@
+body{
+    background-color:black;
+    color: white;
+}
+
+.Form{
+
+    width: 35%;
+    height:  30em;
+
+    margin-left: 32.5%;
+    margin-top:7%;
+
+    border-radius: 0.3cm;
+
+    background-color: rgb(155, 154, 154)
+
+}
+.input-name{
+
+    
+    margin-left: 22.5% ;
+    margin-top: 35px ;
+    padding-left: 0.5cm;
+
+    width: 50%;
+    height: 4em;
+
+    border-radius: 0.5em;
+    border-style: unset;
+
+    background-color: rgb(27, 27, 27); color: white;
+}
+.input-name::placeholder{
+    color: rgb(187, 175, 175);
+}
+
+.input-name:focus{
+    outline: none;
+}
+
+
+.input-email{
+
+    
+    margin-left: 22.5% ;
+    margin-top: 35px ;
+    padding-left: 0.5cm;
+
+    width: 50%;
+    height: 4em;
+
+    border-radius: 0.5em;
+    border-style: unset;
+
+    background-color: rgb(27, 27, 27); color: white;
+}
+.input-email::placeholder{
+    color: rgb(187, 175, 175);
+}
+
+.input-email:focus{
+    outline: none;
+}
+
+
+.input-pass{
+
+    
+    margin-left: 22.5% ;
+    margin-top: 35px ;
+    padding-left: 0.5cm;
+
+    width: 50%;
+    height: 4em;
+
+    border-radius: 0.5em;
+    border-style: unset;
+
+    background-color: rgb(27, 27, 27); color: white;
+}
+.input-pass::placeholder{
+    color: rgb(187, 175, 175);
+}
+
+.input-pass:focus{
+    outline: none;
+}
+
+.input-sub{
+
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+
+    margin-left: 40% ;
+    margin-top: 35px ;
+
+    width: 20%;
+    height: 3em;
+
+    border-radius: 0.5em;
+    border-style: unset;
+
+    background-color: rgb(27, 27, 27); color: white;
+}
+.input-sub::placeholder{
+    color: rgb(187, 175, 175);
+}
+
+.input-sub:hover{
+    background-color: black;
+    width: 19%;
+    margin-left: 190px;
+}
+
+

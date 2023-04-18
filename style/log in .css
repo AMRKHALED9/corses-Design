@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+    color: white;
+}
+#dad-div{
+    width: 450px;
+    height: 350px;
+    border-color: rgb(63, 63, 63); 
+    margin: auto;
+    margin-top: 170px;
+    background-color: rgb(155, 154, 154);
+    border-radius: 0.3cm;
+
+}
+
+.email{
+    background-color: rgb(27, 27, 27); color: white;
+    padding-left: 1.5em;
+    height: 50px;
+    width: 270px;
+    margin-top: 60px; margin-bottom: 20px; margin-left:90px;
+    border-radius: 0.3em;
+    border-color: gray;
+    border-style: unset; 
+}
+.email::placeholder{
+    color: rgb(187, 175, 175);
+}
+.password{
+    background-color: rgb(27, 27, 27); color: white;
+    padding-left: 1.5em;
+    height: 50px;
+    width: 270px;
+    margin-top: 20px; margin-bottom: 20px; margin-left: 90px;
+    border-radius: 0.3em;
+    border-color: gray;
+    border-style: unset; 
+}
+.password::placeholder{
+    color: rgb(187, 175, 175) ;
+}
+.submit{
+    background-color: rgb(40, 40, 40); color: white;
+    width:20%; height: 50px;
+    border-radius: 0.2em; border-style:unset ;
+    text-align: center;
+    margin-left: 40%; margin-top: 30px;
+    padding-bottom: 4px;
+    font-size: 20px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.submit:hover{
+    background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);
+    width: 19.7; height: 50px;
+    margin-left: 40.2%;
+}
+.email:focus{
+    outline: none;
+}
+.password:focus{
+    outline: none;
+}
+
+@media  (max-width: 450px) {
+
+
+    #dad-div{
+        width: 80%;
+        height: 350px;
+    
+    }
+
+    .email{
+        width: 70%;
+        height: 50px;
+        margin-left:12%;
+        margin-right:12%;
+
+    }
+    
+    .password{
+        width: 70%;
+        height: 50px;
+        margin-left:12%;
+        margin-right:12%;
+
+
+    }
+
+    .submit{
+        width: 24%;
+        height: 46px;
+        margin-left:38%;
+        font-size: 17px;
+    } 
+    .submit:hover{
+        width: 23.5%;
+        height:45px;
+        margin-left: 38.1%;
+    }
+
+
+}
+
+@media  (max-width: 950px) and (min-width: 450px){
+
+    #dad-div{
+        width: 80%;
+        height: 450px;
+        margin-top: 170px;
+    }
+
+    .email{
+        width: 80%;
+        height: 70px;
+        margin-left:7%;
+        margin-top: 60px;
+
+    }
+    
+    .password{
+        width: 80%;
+        height: 70px;
+        margin-left:7%;
+        margin-top: 40px;
+
+    }
+
+    .submit{
+        width: 24%;
+        height: 70px;
+        margin-left:38%;
+        margin-top: 40px;
+        font-size: 35px;
+        border-radius: .2em;
+
+    } 
+    .submit:hover{
+        width: 23.5%;
+        height:70px;
+        margin-left: 38.1%;
+    }
+
+
+}
+
