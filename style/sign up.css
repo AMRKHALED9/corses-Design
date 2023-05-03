@@ -26,7 +26,7 @@ body{
     width: 50%;
     height: 4em;
 
-    border-radius: 0.5em;
+    border-radius: 0.3em;
     border-style: unset;
 
     background-color: rgb(27, 27, 27); color: white;
@@ -50,7 +50,7 @@ body{
     width: 50%;
     height: 4em;
 
-    border-radius: 0.5em;
+    border-radius: 0.3em;
     border-style: unset;
 
     background-color: rgb(27, 27, 27); color: white;
@@ -74,7 +74,7 @@ body{
     width: 50%;
     height: 4em;
 
-    border-radius: 0.5em;
+    border-radius: 0.3em;
     border-style: unset;
 
     background-color: rgb(27, 27, 27); color: white;
@@ -97,9 +97,9 @@ body{
     margin-top: 35px ;
 
     width: 20%;
-    height: 3em;
+    height: 2.7em;
 
-    border-radius: 0.5em;
+    border-radius: 0.2em;
     border-style: unset;
 
     background-color: rgb(27, 27, 27); color: white;
@@ -110,8 +110,81 @@ body{
 
 .input-sub:hover{
     background-color: black;
-    width: 19%;
+    width: 19.5%;
     margin-left: 190px;
+}
+@media  (max-width: 450px){
+    .Form{
+        width: 95%;
+        height:28em ;
+        margin-top: 25%;
+        margin-left: 3%;
+
+
+    }
+    .input-name{
+        width: 80%;
+        height: 45px;
+        margin-left: 6.5%;
+    }
+    .input-email{
+        width: 80%;
+        height: 45px;
+        margin-left: 6.5%;
+    }
+    .input-pass{
+        width: 80%;
+        height: 45px;
+        margin-left: 6.5%;
+    }
+    .input-sub{
+        width: 30%;
+        height: 2.5em;
+        margin-left: 35%;
+    }
+    .input-sub:hover{
+        width: 29.5%;
+        margin-left:35.5% ;
+    }
+}
+
+@media  (max-width: 950px) and (min-width: 450px){
+        .Form{
+            width: 90%;
+            height:38em ;
+            margin-top: 25%;
+            margin-left: 5%;
+    
+    
+        }
+        .input-name{
+            width: 80%;
+            height: 55px;
+            margin-left: 6.5%;
+            margin-top: 3em;
+        }
+        .input-email{
+            width: 80%;
+            height: 55px;
+            margin-top: 3em;
+            margin-left: 6.5%;
+        }
+        .input-pass{
+            width: 80%;
+            height: 55px;
+            margin-top: 3em;
+            margin-left: 6.5%;
+        }
+        .input-sub{
+            width: 30%;
+            height: 3.5em;
+            margin-top: 3em;
+            margin-left: 35%;
+        }
+        .input-sub:hover{
+            width: 29.5%;
+            margin-left:35.5% ;
+        }
 }
 
 
